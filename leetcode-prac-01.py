@@ -3,13 +3,13 @@
 Given an integer, return True if it reads the same forwards and backwards. Determine whether an integer is a palindrome. Tools: conditionals, type conversion, string/list reversal. Pure Day 1–5 stuff. Best warm-up.
 '''
 
-'''def palindrome_check(number):
+def palindrome_check(number):
     normal_number_str = str(number)
     reverse_number_str = normal_number_str[::-1]
     return normal_number_str == reverse_number_str
         
 result = palindrome_check(121)
-print(result)'''
+print(result)
 
 '''2. Two Sum — LeetCode #1 🟡
 Given a list of numbers and a target, return the positions of the two numbers that add up to the target. 
