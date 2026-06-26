@@ -41,21 +41,56 @@
 # Another: [1, 3, 3] → should be 1 to 3; duplicate is 3, missing is 2.
 # The list won't be sorted, and N is just however long the list is.
 
-example_list = [1, 2, 2, 4, 5]
+# example_list = [1, 2, 2, 4, 5]
 
-def dup_and_miss(example_list):
-    temp_list = []
+# def dup_and_miss(example_list):
+#     temp_list = []
 
-    index_list = list(range(1, len(example_list) + 1))
-    result_set = set(index_list) - set(example_list)
-    missing_number = list(result_set)[0]
+#     index_list = list(range(1, len(example_list) + 1))
+#     result_set = set(index_list) - set(example_list)
+#     missing_number = list(result_set)[0]
 
-    for item in example_list:
-        if item in temp_list:
-            duplicate_number = item
-        else:
-            temp_list.append(item)
-    return missing_number, duplicate_number
+#     for item in example_list:
+#         if item in temp_list:
+#             duplicate_number = item
+#         else:
+#             temp_list.append(item)
+#     return missing_number, duplicate_number
 
-miss, dup = dup_and_miss(example_list)
-print(f"Missing number is {miss} and duplicate number is {dup}.")
+# miss, dup = dup_and_miss(example_list)
+# print(f"Missing number is {miss} and duplicate number is {dup}.")
+
+
+# Small test problems : 
+
+# def sum_even_numbers(n):
+#     return sum(number for number in range(n+1) if number % 2 == 0)
+
+
+
+
+# result = sum_even_numbers(7)
+# print(result)
+
+# def count_vowels(text):
+#     count = 0
+#     vowel_list = ["a","e","i","o","u"]
+#     for char in text:
+#         if char.lower() in vowel_list:
+#             count += 1
+#     return count
+
+# result = count_vowels("Hello World")
+# print(result)
+
+
+
+
+# def second_largest(nums):
+#     unique_list = sorted(set(nums))
+#     if len(unique_list) < 2:
+#         return None
+#     return unique_list[-2]
+
+# result = second_largest([5, 2, 9, 1, 9, 7])
+# print(result)
