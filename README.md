@@ -1,14 +1,9 @@
-# My Backend Developer Journey
+# Python Fundamentals Practice
 
-I taught myself Python from absolute scratch, building a structured
-foundation across 16 committed days — variables, functions, OOP,
-error handling, comprehensions, sets, tuples, *args/**kwargs, lambda,
-string methods, and scope.
+Python practice exercises from when I started learning the language in June 2026.
 
-**Started:** June 03, 2026
-**Status:** Python foundation complete. Pivoted to Data Analyst track
-in August 2026 to pursue a more immediate entry into the industry.
-This repository is preserved as a record of my learning discipline
-and Python foundation.
+## Topics
+Variables, functions, OOP, error handling, comprehensions, sets, tuples, `*args`/`**kwargs`, lambda, string methods, scope.
 
-**GitHub:** https://github.com/Arkadeep-Roy-Tech
+## Author
+Arkadeep Roy · [GitHub](https://github.com/Arkadeep-Roy-Tech)
